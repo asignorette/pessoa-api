@@ -1,4 +1,4 @@
-package br.com.crud.common.exceptions;
+package br.com.crud.exceptions;
 
 import java.util.List;
 

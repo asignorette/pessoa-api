@@ -69,7 +69,7 @@ public class PessoaServiceTest {
 		final List<Pessoa> list = new ArrayList<>();
 		list.add(this.pessoa);
 		
-		when(service.findAll()).thenReturn(list);
+		when(customerRepository.findAll()).thenReturn(list);
 		
 		assertEquals(service.findAll().size(), 1);
 		verify(customerRepository).findAll();

@@ -1,4 +1,4 @@
-package br.com.crud.common.exceptions;
+package br.com.crud.exceptions;
 
 import org.springframework.boot.context.config.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
